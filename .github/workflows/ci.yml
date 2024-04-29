@@ -26,7 +26,7 @@ jobs:
   ## flowerfine/scaleph/.github/workflows/ci-maven.yml@dev
   ## 调用同一仓库的工作流
   ## ./.github/workflows/ci-npm.yml
-  
+
   build_maven:
     uses: ./.github/workflows/ci-maven.yml
 
