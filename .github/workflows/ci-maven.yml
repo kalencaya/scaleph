@@ -21,9 +21,8 @@ on:
     paths-ignore: ['docs/**', '**/*.md', '**/*.drawio', '**/*.svg' ]
   push:
     paths-ignore: ['docs/**', '**/*.md', '**/*.drawio', '**/*.svg' ]
-  schedule:
-    - cron: '0 20 * * *' # automatic test while every day on 04:00 am at UTC+10
   workflow_dispatch:
+  workflow_call:
 
 jobs:
   build:
@@ -47,6 +46,10 @@ jobs:
       - name: Build scaleph-dist
         timeout-minutes: 360
         run: mvn -B -U -T 4C clean package -Pdist -DskipTests -Dfast
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: scaleph-dist
       - name: Build with Maven
         timeout-minutes: 360
         run: mvn -B -U -T 4C clean package
