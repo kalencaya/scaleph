@@ -18,15 +18,15 @@
 
 package cn.sliew.scaleph.api.controller.admin;
 
-import cn.sliew.scaleph.api.annotation.AnonymousAccess;
-import cn.sliew.scaleph.api.annotation.Logging;
 import cn.sliew.scaleph.common.constant.DictConstants;
 import cn.sliew.scaleph.common.enums.BoolEnum;
 import cn.sliew.scaleph.common.util.I18nUtil;
+import cn.sliew.scaleph.log.annotation.Logging;
 import cn.sliew.scaleph.log.service.LogMessageService;
 import cn.sliew.scaleph.log.service.dto.LogMessageDTO;
 import cn.sliew.scaleph.log.service.param.LogMessageParam;
-import cn.sliew.scaleph.security.util.SecurityUtil;
+import cn.sliew.scaleph.security.web.annotation.AnonymousAccess;
+import cn.sliew.scaleph.security.web.util.SecurityUtil;
 import cn.sliew.scaleph.system.model.ResponseVO;
 import cn.sliew.scaleph.system.service.vo.DictVO;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;

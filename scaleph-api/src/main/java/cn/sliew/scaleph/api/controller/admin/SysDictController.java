@@ -18,10 +18,10 @@
 
 package cn.sliew.scaleph.api.controller.admin;
 
-import cn.sliew.scaleph.api.annotation.AnonymousAccess;
-import cn.sliew.scaleph.api.annotation.Logging;
 import cn.sliew.scaleph.common.dict.DictInstance;
 import cn.sliew.scaleph.common.dict.DictType;
+import cn.sliew.scaleph.log.annotation.Logging;
+import cn.sliew.scaleph.security.web.annotation.AnonymousAccess;
 import cn.sliew.scaleph.system.service.SysDictService;
 import cn.sliew.scaleph.system.service.SysDictTypeService;
 import cn.sliew.scaleph.system.service.dto.SysDictDTO;

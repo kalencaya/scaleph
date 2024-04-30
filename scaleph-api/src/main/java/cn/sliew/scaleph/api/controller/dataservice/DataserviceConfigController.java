@@ -18,11 +18,11 @@
 
 package cn.sliew.scaleph.api.controller.dataservice;
 
-import cn.sliew.scaleph.api.annotation.Logging;
 import cn.sliew.scaleph.dataservice.service.DataserviceConfigService;
 import cn.sliew.scaleph.dataservice.service.dto.DataserviceConfigDTO;
 import cn.sliew.scaleph.dataservice.service.param.DataserviceConfigListParam;
 import cn.sliew.scaleph.dataservice.service.param.DataserviceConfigSaveParam;
+import cn.sliew.scaleph.log.annotation.Logging;
 import cn.sliew.scaleph.system.model.ResponseVO;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import io.swagger.v3.oas.annotations.Operation;

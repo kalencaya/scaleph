@@ -18,8 +18,8 @@
 
 package cn.sliew.scaleph.application.flink.resource.handler;
 
-import cn.sliew.scaleph.config.storage.FileSystemType;
-import cn.sliew.scaleph.config.storage.S3FileSystemProperties;
+import cn.sliew.scaleph.spring.storage.FileSystemType;
+import cn.sliew.scaleph.spring.storage.S3FileSystemProperties;
 import cn.sliew.scaleph.application.flink.operator.spec.AbstractFlinkSpec;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

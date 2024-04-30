@@ -18,7 +18,7 @@
 
 package cn.sliew.scaleph.api.controller.stdata;
 
-import cn.sliew.scaleph.api.annotation.Logging;
+import cn.sliew.scaleph.log.annotation.Logging;
 import cn.sliew.scaleph.meta.service.MetaSystemService;
 import cn.sliew.scaleph.meta.service.dto.MetaSystemDTO;
 import cn.sliew.scaleph.meta.service.param.MetaSystemParam;

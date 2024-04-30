@@ -18,11 +18,11 @@
 
 package cn.sliew.scaleph.api.controller.ds;
 
-import cn.sliew.scaleph.api.annotation.Logging;
 import cn.sliew.scaleph.ds.service.DsCategoryService;
 import cn.sliew.scaleph.ds.service.dto.DsCategoryDTO;
 import cn.sliew.scaleph.ds.service.dto.DsTypeDTO;
 import cn.sliew.scaleph.ds.service.param.DsTypeListParam;
+import cn.sliew.scaleph.log.annotation.Logging;
 import cn.sliew.scaleph.system.model.ResponseVO;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;

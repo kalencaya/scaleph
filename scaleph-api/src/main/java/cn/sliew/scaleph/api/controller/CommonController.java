@@ -18,12 +18,12 @@
 
 package cn.sliew.scaleph.api.controller;
 
-import cn.sliew.scaleph.api.annotation.AnonymousAccess;
-import cn.sliew.scaleph.api.annotation.Logging;
-import cn.sliew.scaleph.security.service.SecAuthenticateService;
-import cn.sliew.scaleph.security.service.dto.SecCaptchaDTO;
+import cn.sliew.scaleph.log.annotation.Logging;
+import cn.sliew.scaleph.security.web.annotation.AnonymousAccess;
 import cn.sliew.scaleph.system.snowflake.UidGenerator;
 import cn.sliew.scaleph.system.snowflake.exception.UidGenerateException;
+import cn.sliew.security.service.SecAuthenticateService;
+import cn.sliew.security.service.dto.SecCaptchaDTO;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.beans.factory.annotation.Autowired;

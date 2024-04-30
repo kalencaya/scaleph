@@ -20,7 +20,7 @@ package cn.sliew.scaleph.application.doris.doris.service.resource.template;
 
 import cn.sliew.scaleph.application.doris.doris.operator.spec.DorisClusterSpec;
 import cn.sliew.scaleph.application.doris.doris.service.dto.WsDorisOperatorTemplateDTO;
-import cn.sliew.scaleph.config.kubernetes.resource.ResourceLabels;
+import cn.sliew.scaleph.spring.kubernetes.resource.ResourceLabels;
 import cn.sliew.scaleph.kubernetes.resource.ResourceConverter;
 import io.fabric8.kubernetes.api.model.ObjectMetaBuilder;
 import org.springframework.util.StringUtils;

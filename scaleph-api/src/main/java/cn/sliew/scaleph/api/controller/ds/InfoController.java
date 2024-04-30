@@ -18,12 +18,12 @@
 
 package cn.sliew.scaleph.api.controller.ds;
 
-import cn.sliew.scaleph.api.annotation.Logging;
 import cn.sliew.scaleph.common.dict.job.DataSourceType;
 import cn.sliew.scaleph.ds.modal.AbstractDataSource;
 import cn.sliew.scaleph.ds.service.DsInfoService;
 import cn.sliew.scaleph.ds.service.dto.DsInfoDTO;
 import cn.sliew.scaleph.ds.service.param.DsInfoListParam;
+import cn.sliew.scaleph.log.annotation.Logging;
 import cn.sliew.scaleph.system.model.ResponseVO;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import io.swagger.v3.oas.annotations.Operation;

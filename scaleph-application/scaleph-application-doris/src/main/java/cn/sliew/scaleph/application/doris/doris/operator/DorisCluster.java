@@ -19,7 +19,7 @@
 package cn.sliew.scaleph.application.doris.doris.operator;
 
 import cn.sliew.scaleph.application.doris.doris.operator.spec.DorisClusterSpec;
-import cn.sliew.scaleph.config.kubernetes.resource.ResourceLabels;
+import cn.sliew.scaleph.spring.kubernetes.resource.ResourceLabels;
 import cn.sliew.scaleph.application.doris.doris.operator.status.DorisClusterStatus;
 import io.fabric8.kubernetes.api.model.Namespaced;
 import io.fabric8.kubernetes.client.CustomResource;

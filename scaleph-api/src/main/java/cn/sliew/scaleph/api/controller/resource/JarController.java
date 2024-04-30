@@ -18,8 +18,8 @@
 
 package cn.sliew.scaleph.api.controller.resource;
 
-import cn.sliew.scaleph.api.annotation.Logging;
 import cn.sliew.scaleph.common.exception.ScalephException;
+import cn.sliew.scaleph.log.annotation.Logging;
 import cn.sliew.scaleph.resource.service.JarService;
 import cn.sliew.scaleph.resource.service.dto.JarDTO;
 import cn.sliew.scaleph.resource.service.param.JarListParam;

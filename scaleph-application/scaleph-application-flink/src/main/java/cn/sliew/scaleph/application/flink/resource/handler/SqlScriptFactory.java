@@ -19,7 +19,7 @@
 package cn.sliew.scaleph.application.flink.resource.handler;
 
 import cn.sliew.scaleph.application.flink.service.dto.WsFlinkKubernetesJobDTO;
-import cn.sliew.scaleph.config.kubernetes.resource.ResourceNames;
+import cn.sliew.scaleph.spring.kubernetes.resource.ResourceNames;
 import cn.sliew.scaleph.application.flink.resource.definition.job.FlinkDeploymentJob;
 import cn.sliew.scaleph.kubernetes.resource.custom.ResourceCustomizer;
 import io.fabric8.kubernetes.api.model.*;

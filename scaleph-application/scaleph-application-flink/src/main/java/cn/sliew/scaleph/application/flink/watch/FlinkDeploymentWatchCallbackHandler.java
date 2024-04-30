@@ -20,7 +20,7 @@ package cn.sliew.scaleph.application.flink.watch;
 
 import cn.sliew.milky.common.util.JacksonUtil;
 import cn.sliew.scaleph.application.flink.service.WsFlinkKubernetesJobInstanceService;
-import cn.sliew.scaleph.config.kubernetes.resource.ResourceLabels;
+import cn.sliew.scaleph.spring.kubernetes.resource.ResourceLabels;
 import cn.sliew.scaleph.application.flink.operator.status.FlinkDeploymentStatus;
 import cn.sliew.scaleph.kubernetes.watch.watch.WatchCallbackHandler;
 import io.fabric8.kubernetes.api.model.GenericKubernetesResource;

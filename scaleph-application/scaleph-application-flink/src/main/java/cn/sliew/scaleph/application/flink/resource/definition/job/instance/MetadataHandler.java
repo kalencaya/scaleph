@@ -20,7 +20,7 @@ package cn.sliew.scaleph.application.flink.resource.definition.job.instance;
 
 import cn.sliew.scaleph.application.flink.service.dto.WsFlinkKubernetesJobDTO;
 import cn.sliew.scaleph.application.flink.service.dto.WsFlinkKubernetesJobInstanceDTO;
-import cn.sliew.scaleph.config.kubernetes.resource.ResourceLabels;
+import cn.sliew.scaleph.spring.kubernetes.resource.ResourceLabels;
 import io.fabric8.kubernetes.api.model.ObjectMeta;
 import io.fabric8.kubernetes.api.model.ObjectMetaBuilder;
 import org.springframework.stereotype.Component;

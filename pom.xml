@@ -84,7 +84,7 @@
         <module>scaleph-security</module>
         <module>scaleph-resource</module>
         <module>scaleph-support</module>
-        <module>scaleph-config</module>
+        <module>scaleph-spring</module>
         <module>scaleph-api</module>
         <module>scaleph-meta</module>
 
@@ -99,6 +99,7 @@
         <module>scaleph-dist</module>
         <module>scaleph-file-fetcher</module>
         <module>scaleph-dataservice</module>
+        <module>scaleph-security/scaleph-security-web</module>
     </modules>
 
     <properties>
@@ -172,6 +173,13 @@
         <gravitino.version>0.5.0</gravitino.version>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+    </dependencies>
+
     <dependencyManagement>
         <dependencies>
             <!--<dependency>
@@ -220,7 +228,12 @@
             </dependency>
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>scaleph-security</artifactId>
+                <artifactId>scaleph-security-service</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>scaleph-security-web</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
@@ -235,7 +248,7 @@
             </dependency>
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>scaleph-config</artifactId>
+                <artifactId>scaleph-spring</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>

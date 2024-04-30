@@ -18,7 +18,6 @@
 
 package cn.sliew.scaleph.api.controller.dataservice;
 
-import cn.sliew.scaleph.api.annotation.Logging;
 import cn.sliew.scaleph.dataservice.service.DataserviceResultMapService;
 import cn.sliew.scaleph.dataservice.service.dto.DataserviceResultMapDTO;
 import cn.sliew.scaleph.dataservice.service.dto.DataserviceResultMappingDTO;
@@ -26,6 +25,7 @@ import cn.sliew.scaleph.dataservice.service.param.DataserviceResultMapAddParam;
 import cn.sliew.scaleph.dataservice.service.param.DataserviceResultMapListParam;
 import cn.sliew.scaleph.dataservice.service.param.DataserviceResultMapUpdateParam;
 import cn.sliew.scaleph.dataservice.service.param.DataserviceResultMappingReplaceParam;
+import cn.sliew.scaleph.log.annotation.Logging;
 import cn.sliew.scaleph.system.model.ResponseVO;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import io.swagger.v3.oas.annotations.Operation;

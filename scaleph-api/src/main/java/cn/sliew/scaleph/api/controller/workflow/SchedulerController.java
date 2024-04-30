@@ -18,7 +18,7 @@
 
 package cn.sliew.scaleph.api.controller.workflow;
 
-import cn.sliew.scaleph.api.annotation.Logging;
+import cn.sliew.scaleph.log.annotation.Logging;
 import cn.sliew.scaleph.system.model.ResponseVO;
 import cn.sliew.scaleph.workflow.scheduler.SchedulerService;
 import cn.sliew.scaleph.workflow.service.WorkflowScheduleService;

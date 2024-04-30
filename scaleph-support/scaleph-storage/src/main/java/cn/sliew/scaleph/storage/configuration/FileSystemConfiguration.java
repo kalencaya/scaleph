@@ -19,7 +19,7 @@
 package cn.sliew.scaleph.storage.configuration;
 
 import cn.sliew.scaleph.common.util.SystemUtil;
-import cn.sliew.scaleph.config.storage.*;
+import cn.sliew.scaleph.spring.storage.*;
 import cn.sliew.scaleph.storage.util.HadoopUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.hadoop.fs.FileSystem;

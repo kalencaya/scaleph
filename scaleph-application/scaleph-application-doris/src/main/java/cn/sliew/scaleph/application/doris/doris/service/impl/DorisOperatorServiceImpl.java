@@ -20,7 +20,7 @@ package cn.sliew.scaleph.application.doris.doris.service.impl;
 
 import cn.sliew.scaleph.application.doris.doris.service.DorisOperatorService;
 import cn.sliew.scaleph.application.doris.doris.service.dto.WsDorisOperatorInstanceDTO;
-import cn.sliew.scaleph.config.kubernetes.resource.ResourceLabels;
+import cn.sliew.scaleph.spring.kubernetes.resource.ResourceLabels;
 import cn.sliew.scaleph.kubernetes.service.KubernetesService;
 import io.fabric8.kubernetes.api.model.GenericKubernetesResource;
 import io.fabric8.kubernetes.client.KubernetesClient;

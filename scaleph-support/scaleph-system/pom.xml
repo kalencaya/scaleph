@@ -31,12 +31,11 @@
     <dependencies>
         <dependency>
             <groupId>${project.parent.groupId}</groupId>
-            <artifactId>scaleph-cache</artifactId>
+            <artifactId>scaleph-dao</artifactId>
         </dependency>
-
         <dependency>
             <groupId>${project.parent.groupId}</groupId>
-            <artifactId>scaleph-dao</artifactId>
+            <artifactId>scaleph-cache</artifactId>
         </dependency>
 
         <dependency>
@@ -46,11 +45,6 @@
         <dependency>
             <groupId>org.mapstruct</groupId>
             <artifactId>mapstruct</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>cn.sliew</groupId>
-            <artifactId>milky-common</artifactId>
         </dependency>
     </dependencies>
 </project>

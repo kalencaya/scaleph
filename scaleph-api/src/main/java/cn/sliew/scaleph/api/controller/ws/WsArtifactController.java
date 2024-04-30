@@ -18,8 +18,8 @@
 
 package cn.sliew.scaleph.api.controller.ws;
 
-import cn.sliew.scaleph.api.annotation.Logging;
 import cn.sliew.scaleph.common.exception.ScalephException;
+import cn.sliew.scaleph.log.annotation.Logging;
 import cn.sliew.scaleph.workspace.project.service.WsArtifactService;
 import cn.sliew.scaleph.workspace.project.service.dto.WsArtifactDTO;
 import cn.sliew.scaleph.workspace.project.service.param.WsArtifactListParam;

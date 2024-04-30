@@ -18,7 +18,6 @@
 
 package cn.sliew.scaleph.api.controller.oam;
 
-import cn.sliew.scaleph.api.annotation.Logging;
 import cn.sliew.scaleph.application.oam.model.definition.ComponentDefinition;
 import cn.sliew.scaleph.application.oam.model.definition.PolicyDefinition;
 import cn.sliew.scaleph.application.oam.model.definition.TraitDefinition;
@@ -26,6 +25,7 @@ import cn.sliew.scaleph.application.oam.service.OamComponentDefinitionService;
 import cn.sliew.scaleph.application.oam.service.OamPolicyDefinitionService;
 import cn.sliew.scaleph.application.oam.service.OamTraitDefinitionService;
 import cn.sliew.scaleph.application.oam.service.OamWorkloadDefinitionService;
+import cn.sliew.scaleph.log.annotation.Logging;
 import cn.sliew.scaleph.system.model.PaginationParam;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import io.swagger.v3.oas.annotations.Operation;

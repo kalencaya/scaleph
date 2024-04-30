@@ -21,7 +21,7 @@ package cn.sliew.scaleph.application.flink.resource.definition.deployment;
 import cn.sliew.scaleph.application.flink.service.dto.WsFlinkKubernetesDeploymentDTO;
 import cn.sliew.scaleph.application.flink.service.vo.KubernetesOptionsVO;
 import cn.sliew.scaleph.common.dict.flink.kubernetes.OperatorFlinkVersion;
-import cn.sliew.scaleph.config.kubernetes.resource.ResourceLabels;
+import cn.sliew.scaleph.spring.kubernetes.resource.ResourceLabels;
 import cn.sliew.scaleph.application.flink.operator.spec.FlinkDeploymentSpec;
 import cn.sliew.scaleph.application.flink.operator.spec.FlinkVersion;
 import cn.sliew.scaleph.application.flink.resource.handler.FlinkVersionMapping;

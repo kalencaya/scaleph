@@ -19,11 +19,11 @@
 package cn.sliew.scaleph.api.controller.admin;
 
 import cn.hutool.core.date.DateUtil;
-import cn.sliew.scaleph.api.annotation.Logging;
+import cn.sliew.scaleph.log.annotation.Logging;
 import cn.sliew.scaleph.log.service.LogLoginService;
 import cn.sliew.scaleph.log.service.dto.LogLoginDTO;
 import cn.sliew.scaleph.log.service.param.LogLoginParam;
-import cn.sliew.scaleph.security.util.SecurityUtil;
+import cn.sliew.scaleph.security.web.util.SecurityUtil;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;

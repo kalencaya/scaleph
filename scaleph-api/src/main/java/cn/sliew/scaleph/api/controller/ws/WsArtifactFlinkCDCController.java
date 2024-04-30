@@ -18,9 +18,9 @@
 
 package cn.sliew.scaleph.api.controller.ws;
 
-import cn.sliew.scaleph.api.annotation.Logging;
 import cn.sliew.scaleph.common.exception.ScalephException;
 import cn.sliew.scaleph.dag.xflow.dnd.DndDTO;
+import cn.sliew.scaleph.log.annotation.Logging;
 import cn.sliew.scaleph.system.model.ResponseVO;
 import cn.sliew.scaleph.workspace.flink.cdc.service.FlinkCDCDagService;
 import cn.sliew.scaleph.workspace.flink.cdc.service.WsArtifactFlinkCDCService;

@@ -18,7 +18,6 @@
 
 package cn.sliew.scaleph.api.controller.ws;
 
-import cn.sliew.scaleph.api.annotation.Logging;
 import cn.sliew.scaleph.application.flink.service.FlinkJobManagerEndpointService;
 import cn.sliew.scaleph.application.flink.service.WsFlinkKubernetesJobInstanceService;
 import cn.sliew.scaleph.application.flink.service.WsFlinkKubernetesJobService;
@@ -26,6 +25,7 @@ import cn.sliew.scaleph.application.flink.service.dto.WsFlinkKubernetesJobDTO;
 import cn.sliew.scaleph.application.flink.service.dto.WsFlinkKubernetesJobInstanceDTO;
 import cn.sliew.scaleph.application.flink.service.dto.WsFlinkKubernetesJobInstanceSavepointDTO;
 import cn.sliew.scaleph.application.flink.service.param.*;
+import cn.sliew.scaleph.log.annotation.Logging;
 import cn.sliew.scaleph.system.model.ResponseVO;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import io.fabric8.kubernetes.api.model.GenericKubernetesResource;

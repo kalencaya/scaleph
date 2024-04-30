@@ -20,7 +20,7 @@ package cn.sliew.scaleph.application.flink.resource.handler;
 
 import cn.sliew.milky.common.util.JacksonUtil;
 import cn.sliew.scaleph.application.flink.service.dto.WsFlinkKubernetesJobInstanceDTO;
-import cn.sliew.scaleph.config.kubernetes.resource.ResourceNames;
+import cn.sliew.scaleph.spring.kubernetes.resource.ResourceNames;
 import cn.sliew.scaleph.application.flink.operator.spec.FlinkDeploymentSpec;
 import cn.sliew.scaleph.workspace.seatunnel.service.WsArtifactSeaTunnelService;
 import io.fabric8.kubernetes.api.model.*;

@@ -18,8 +18,8 @@
 
 package cn.sliew.scaleph.api.controller.resource;
 
-import cn.sliew.scaleph.api.annotation.Logging;
 import cn.sliew.scaleph.common.exception.ScalephException;
+import cn.sliew.scaleph.log.annotation.Logging;
 import cn.sliew.scaleph.resource.service.SeaTunnelReleaseService;
 import cn.sliew.scaleph.resource.service.dto.SeaTunnelReleaseDTO;
 import cn.sliew.scaleph.resource.service.param.SeaTunnelConnectorUploadParam;

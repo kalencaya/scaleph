@@ -18,7 +18,7 @@
 
 package cn.sliew.scaleph.api.controller.stdata;
 
-import cn.sliew.scaleph.api.annotation.Logging;
+import cn.sliew.scaleph.log.annotation.Logging;
 import cn.sliew.scaleph.meta.service.MetaDataElementService;
 import cn.sliew.scaleph.meta.service.dto.MetaDataElementDTO;
 import cn.sliew.scaleph.meta.service.param.MetaDataElementParam;

@@ -18,8 +18,8 @@
 
 package cn.sliew.scaleph.api.controller.studio;
 
-import cn.sliew.scaleph.api.annotation.Logging;
-import cn.sliew.scaleph.api.vo.TransferVO;
+import cn.sliew.scaleph.common.antd.field.TransferVO;
+import cn.sliew.scaleph.log.annotation.Logging;
 import cn.sliew.scaleph.workspace.project.service.WsProjectService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;

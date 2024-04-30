@@ -18,7 +18,7 @@
 
 package cn.sliew.scaleph.api.controller.resource;
 
-import cn.sliew.scaleph.api.annotation.Logging;
+import cn.sliew.scaleph.log.annotation.Logging;
 import cn.sliew.scaleph.resource.service.ResourceService;
 import cn.sliew.scaleph.resource.service.enums.ResourceType;
 import cn.sliew.scaleph.resource.service.param.ResourceListParam;

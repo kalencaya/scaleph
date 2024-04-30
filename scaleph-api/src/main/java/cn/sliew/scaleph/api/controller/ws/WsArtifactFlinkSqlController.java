@@ -18,7 +18,7 @@
 
 package cn.sliew.scaleph.api.controller.ws;
 
-import cn.sliew.scaleph.api.annotation.Logging;
+import cn.sliew.scaleph.log.annotation.Logging;
 import cn.sliew.scaleph.system.model.ResponseVO;
 import cn.sliew.scaleph.workspace.flink.sql.service.WsArtifactFlinkSqlService;
 import cn.sliew.scaleph.workspace.flink.sql.service.dto.WsArtifactFlinkSqlDTO;

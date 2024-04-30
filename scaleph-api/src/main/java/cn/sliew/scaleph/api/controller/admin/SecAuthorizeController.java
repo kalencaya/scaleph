@@ -18,14 +18,14 @@
 
 package cn.sliew.scaleph.api.controller.admin;
 
-import cn.sliew.scaleph.api.annotation.Logging;
-import cn.sliew.scaleph.security.service.SecAuthorizeService;
-import cn.sliew.scaleph.security.service.dto.SecResourceWebWithAuthorizeDTO;
-import cn.sliew.scaleph.security.service.dto.SecRoleDTO;
-import cn.sliew.scaleph.security.service.dto.SecUserDTO;
-import cn.sliew.scaleph.security.service.dto.UmiRoute;
-import cn.sliew.scaleph.security.service.param.*;
+import cn.sliew.scaleph.common.antd.umi.UmiRoute;
+import cn.sliew.scaleph.log.annotation.Logging;
 import cn.sliew.scaleph.system.model.ResponseVO;
+import cn.sliew.security.service.SecAuthorizeService;
+import cn.sliew.security.service.dto.SecResourceWebWithAuthorizeDTO;
+import cn.sliew.security.service.dto.SecRoleDTO;
+import cn.sliew.security.service.dto.SecUserDTO;
+import cn.sliew.security.service.param.*;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;

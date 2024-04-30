@@ -19,13 +19,13 @@
 package cn.sliew.scaleph.api.controller.admin;
 
 import cn.sliew.milky.common.util.JacksonUtil;
-import cn.sliew.scaleph.api.annotation.Logging;
 import cn.sliew.scaleph.common.codec.CodecUtil;
 import cn.sliew.scaleph.common.constant.Constants;
 import cn.sliew.scaleph.common.enums.ErrorShowTypeEnum;
 import cn.sliew.scaleph.common.enums.ResponseCodeEnum;
 import cn.sliew.scaleph.common.util.I18nUtil;
 import cn.sliew.scaleph.dao.DataSourceConstants;
+import cn.sliew.scaleph.log.annotation.Logging;
 import cn.sliew.scaleph.mail.service.EmailService;
 import cn.sliew.scaleph.mail.service.vo.EmailConfigVO;
 import cn.sliew.scaleph.system.model.ResponseVO;

@@ -21,7 +21,7 @@ package cn.sliew.scaleph.application.flink.resource.definition.job.instance;
 import cn.sliew.scaleph.application.flink.service.dto.WsFlinkKubernetesJobInstanceDTO;
 import cn.sliew.scaleph.common.dict.flink.kubernetes.DeploymentKind;
 import cn.sliew.scaleph.common.util.SeaTunnelReleaseUtil;
-import cn.sliew.scaleph.config.kubernetes.resource.ResourceNames;
+import cn.sliew.scaleph.spring.kubernetes.resource.ResourceNames;
 import cn.sliew.scaleph.dao.entity.master.ws.WsArtifactFlinkCDC;
 import cn.sliew.scaleph.dao.entity.master.ws.WsArtifactFlinkJar;
 import cn.sliew.scaleph.dao.entity.master.ws.WsArtifactFlinkSql;
