@@ -25,6 +25,7 @@ import cn.sliew.scaleph.application.flink.operator.spec.IngressSpec;
 import java.util.HashMap;
 import java.util.Map;
 
+@Deprecated
 public enum FlinkServiceUtil {
     ;
 

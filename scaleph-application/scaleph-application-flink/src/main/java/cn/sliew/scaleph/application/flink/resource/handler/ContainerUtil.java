@@ -23,6 +23,7 @@ import io.fabric8.kubernetes.api.model.PodBuilder;
 import io.fabric8.kubernetes.api.model.PodFluent;
 import io.fabric8.kubernetes.api.model.PodSpecFluent;
 
+@Deprecated
 public enum ContainerUtil {
     ;
 

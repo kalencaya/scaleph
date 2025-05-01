@@ -31,6 +31,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.*;
 
+@Deprecated
 @Component
 public class FlinkMainContainerHandler {
 

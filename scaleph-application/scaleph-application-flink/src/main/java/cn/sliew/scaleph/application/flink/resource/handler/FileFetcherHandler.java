@@ -38,6 +38,7 @@ import org.springframework.util.CollectionUtils;
 
 import java.util.*;
 
+@Deprecated
 @Component
 public class FileFetcherHandler {
 

@@ -22,6 +22,7 @@ import cn.sliew.scaleph.application.flink.operator.spec.FlinkDeploymentSpec;
 import cn.sliew.scaleph.application.flink.service.dto.WsFlinkKubernetesJobInstanceDTO;
 import org.springframework.stereotype.Component;
 
+@Deprecated
 @Component
 public class FlinkImageHandler {
 

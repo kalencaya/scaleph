@@ -56,7 +56,7 @@ export default {
   'menu.stdata.refdataMap': '数据映射',
 
   'menu.admin': '系统管理',
-  'menu.admin.security': '安全管理',
+  'menu.admin.security': '系统安全',
   'menu.admin.security.dept': '部门管理',
   'menu.admin.security.role': '角色管理',
   'menu.admin.security.user': '用户管理',
